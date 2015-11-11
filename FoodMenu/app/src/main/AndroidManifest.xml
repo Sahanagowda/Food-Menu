@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs442.sbasappa_a3" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ItemListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <provider
+            android:authorities="com.cs442.sbasappa_a3.android.provider.FoodMenu1"
+            android:name=".Mycontentprovider"
+            android:exported="true">
+
+        </provider>
+
+        <activity
+            android:name=".AddItemActivity"
+            android:label="AddItem"></activity>
+
+        <activity
+            android:name=".DeleteItemActivity"
+            android:label="DeleteItem"></activity>
+        <activity
+            android:name=".ChangeItemActivity"
+            android:label="ChangeItem"></activity>
+
+
+        <activity
+            android:name=".ItemDetailActivity"
+            android:label="@string/title_fooditem_detail"
+            android:parentActivityName=".ItemListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+        <activity
+            android:name="com.cs442.sbasappa_a3.MainActivity"
+            android:label="Menu Items" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

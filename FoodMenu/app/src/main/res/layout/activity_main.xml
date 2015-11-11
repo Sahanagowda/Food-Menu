@@ -1,0 +1,41 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@drawable/hifi"
+    android:layout_width="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent" android:padding="@dimen/activity_horizontal_margin"
+        tools:context="com.cs442.sbasappa_a3.MainActivity"
+        android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/entry"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to South Indian Cuisine"
+                android:gravity="center_horizontal"
+                android:textStyle="italic|bold"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="10pt"
+                android:paddingBottom="10pt"
+                android:textColor="@color/white_text"
+                android:textSize="15pt"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                android:onClick="showMenu"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                 />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="select_color">#E6E6FA</color>
+    <color name="textview_lines">#ff1493</color>
+    <color name="textview_text_color">#000000</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="Text_Color">#000000</color>
+    <color name="item_detail">#A9A9A9</color>
+    <color name="alpha">#FFF0F5</color>
+</resources>

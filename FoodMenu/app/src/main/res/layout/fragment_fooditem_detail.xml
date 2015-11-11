@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FoodItemDetailFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="5dp">
+
+    <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView android:id="@+id/fooditem_shortDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textSize="8pt" android:padding="16dp"
+                android:textColor="@color/Text_Color"
+                />
+
+            <ImageView
+                android:id="@+id/fooditem_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                style="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:textSize="10pt" android:text="@string/ingredient"
+                android:gravity="center_horizontal"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                />
+
+            <TextView android:id="@+id/fooditem_ingredients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="8pt" android:padding="16dp"
+                    android:textColor="@color/Text_Color"/>
+            <TextView
+                style="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  android:textSize="10pt" android:text="@string/receipe"
+                android:paddingLeft="16dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+
+            <TextView android:id="@+id/fooditem_cookingMethod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8pt" android:padding="16dp"
+                android:textColor="@color/Text_Color"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

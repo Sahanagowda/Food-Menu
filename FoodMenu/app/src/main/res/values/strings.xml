@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Food Menu</string>
+    <string name="title_fooditem_detail">Cuisine Details</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="receipe">Receipe</string>
+    <string name="title_activity_main">Food Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_name">Menu</string>
+    <string name="welcome_note">Welcome to South Indian Cuisine</string>
+    <string name="dot">.</string>
+
+    <integer-array name="item_ids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="item_names">
+        <item>Onion Uttapam</item>
+        <item>Dosa</item>
+        <item>Vada</item>
+        <item>Idli</item>
+        <item>Bajji</item>
+        <item>Pulihora</item>
+        <item>Lemon Rice</item>
+        <item>Uppma</item>
+        <item>Kulchha</item>
+        <item>Veg Pulav</item>
+    </string-array>
+
+    <string-array name="item_prices">
+        <item>$10.5</item>
+        <item>$10</item>
+        <item>$4.5</item>
+        <item>$3.5</item>
+        <item>$7</item>
+        <item>$5</item>
+        <item>$5</item>
+        <item>$4</item>
+        <item>$7.5</item>
+        <item>$10</item>
+    </string-array>
+
+    <string-array name="item_shortDesc">
+        <item> Onion puttam  is a combination of dosa (rice batter Served) with coconut chutney and sambar</item>
+        <item> A famous food of South India. Dosa (rice batter) cooked finely and served with chutney and aloo sabzi.</item>
+        <item> Vada is the most delicious early morning breakfast in South India, served with chutney.</item>
+        <item> Idli is again one popular breakfast which is served with chutney.</item>
+        <item> Bajji is more spicy which is made of dal batter and chillis.</item>
+        <item> Pulihora is more tasty where rice is mixed with puliyograe.</item>
+        <item> Lemon seasoning with rice and pickle.</item>
+        <item> Upma is made of rava with some vegetables.</item>
+        <item> Kulcha is one again like chapathi served with vegetable samabar.</item>
+        <item> Vegetable pulao makes a nice evening meal. Rice and vegeatbles with amazing spces in it</item>
+    </string-array>
+
+    <string-array name="item_ingredients">
+        <item>Rice batter, potatoes, oil, onion, ginger, garlic, chilli powder,turmeric powder, cumin seeds ,salt, coocnut grinder,vegetables</item>
+        <item> potatoes, onions, green chillis, ginger-garlic paste,Rice batter, turmeric powder, red chilli powder, sugar ,salt, butter, coriander, oil,coconut grinder, curry leaves</item>
+        <item>Vada:Flour ,Oil , Salt Sour Water: Water, Salt ,Cumin seed,Red chilli powder, Dry ginger ,Sugar, curd, corainder leaves, vegetables</item>
+        <item>Refined Idli flour, Baking soda, Butter, Salt, Oil,Onion , Whole white cumin , Turmeric powder, Mustard seeds, Whole coriander, Green chilies , Fresh coriander , Salt, coconut grinder</item>
+        <item>All purpose flour, oil , baking soda, salt, ginger-garlic, chilli powder, garam masala, sugar, salt, coriander</item>
+        <item>Rice, groudnut ,curry leaves, oil, Salt, pulihora mix powder, jeera, turmeric powder </item>
+        <item>Lemon juice , Green chillies, Coriander leaves, green chilli flakes, Oil, Salt , cooked , jeerz,rai, groundnut </item>
+        <item> Bansi rava, carrots, green beans, onion, green bell pepper, garlic, ginger, tomatoes, turmeric powder, coriander powder,green chilli powder, oil, salt</item>
+        <item>Wheat flour, chillie, vegetables, oil, salt , curry leaves, cumin seeds, rai,onions </item>
+        <item>Basmati rice, Black cardamom, Green cardamom, Cinnamon, Garlic , Whole hot spices, Mixed vegetables, Salt, White cumin seed powder, Peppercorns, Onion, Oil</item>
+    </string-array>
+
+    <string-array name="item_cookingStyle">
+        <item>
+            "For the Onion Uttapam:\n\n1.Prepare rice batter, where rice should be overnight soaked it.
+            \n2.Heat the oil in a pan, add the pour the dosa batter on it. When dosa is about to be done,add the onion  and sauté till the onion is golden brown.
+            \n3.Grind the coconut and chilli with ginger, green chilli, tamrind, garlic and with little water
+            \n4.Add the chutney to pan and 1 cup of water and mix well. Simmer for 10 to 15 minutes.
+
+            \nOnion Uttapam
+            \n5.Onion uttapam with chutney is ready to serve
+            \n6.In small bowl add chuney and one Uttapaam decorate with some carrota and onions"
+        </item>
+
+        <item>
+            "For Dosa: \n1. Put urad dal and fenugreek seeds in a small bowl, rinse well and add cold water to cover. Leave both to soak for 4 to 6 hours.
+            \n2. Drain rice and dal-fenugreek mixture in separate colanders. Put rice in a food processor, blender or wet-dry grinder.grind to a smooth paste
+            \n3. Combine the two pastes in a medium mixing bowl.Batter will keep for up to a week, refrigerated. Thin with water if necessary before proceeding
+            \n4. Make the potato filling: Put ghee in a wide skillet over medium heat. When oil is wavy, add mustard seeds and cumin seeds.Add turmeric, asafetida, ginger, curry leaves, garlic and green chile. Stir to coat.
+            \n5. Mash potatoes a bit with the back of a wooden spoon. Season well with salt, add cilantro, then set aside at room temperature.
+            \n6. Flatten the potato mixture slightly. Using the spatula, fold the sides of the dosa around the filling to make a cylindrical shape. Serve immediately"
+        </item>
+
+        <item>
+            "For Vada \n\n1.Soak Urad Daal for minimum of 4-6 hrs.
+            \n2.Drain off all of the water and grind daal in a blender using very little water..
+            \n3.Remove batter into a bowl and add Salt, Ginger, Green Chilies, Black Pepper and Asafoetida.
+
+            \nFor Sour water:
+            \n4.Whip the batter with a spoon to make it light and fluffy.
+            \n5.To make the vadas, wet you hand and scoop up a small portion of batter in your hand.
+            \n6.Allow vada to get medium golden brown in oil on one side before flipping over to the other side"
+            \n7.Serve hot with chutney or sambar"
+        </item>
+
+        <item>
+            "For Idli: 1.Grind the soaked rice,Grind the soaked urad dal,Mix the ground rice and urad dal together.
+            \n2.Grease the idly plates. If needed sprinkle little water, the batter should be of thick pouring consistency. Pour batter in the molds.
+            \n3.When the water begins to bubble up rapidly, place the idly stand in the steamer. Steam it for 10 minutes.
+            \n4.Loosen the idly from the plates with the help of a spoon and remove them to a plate. Add some ghee
+            \n5.serve with coriander coconut chutney or peanut chutney.
+            \n6.Serve hot with chili garlic sauce or chuttni."
+        </item>
+
+        <item>
+            "1.Slit open peppers and deseed it, bring lots of water to a boil.
+            \n2.Take all the ingredients except peppers and oil in a bowl.
+            \n3.Add water slowly and make it into a thick batter. The batter shoudn't be too thick.
+            \n4.Heat oil for deep frying.
+            \n5.Now dip the pepper in batter, fill the inside of the pepper with batter.
+            \n6.Drop pepper in and fry till golden.
+            \n7.Drain it in paper towel."
+</item>
+        <item>
+            "1.Sprinkle turmeric pwd, salt, a tbsp of oil and few fresh curry leaves.
+            \n2.Heat the remaining oil in a cooking vessel, add the mustard seeds and let them splutter. Add dry red chillis, cumin seeds, channa dal, urad dal and fry for a minute till light brown.
+            \n3.Add the tamarind extract and jaggery and cook till the raw smell of tamarind disappears, approx 5-7 mts.
+            \n4.Serve with appadam/chips, majjiga mirapakaayalu (sun dried chillis) and yogurt. Makes a complete meal."
+        </item>
+
+        <item>
+            "1.Gently roast and then coarsely powder the coriander seeds. Keep aside.
+            \n2.Fry till the spluttering stops and add the ginger and peanuts
+            \n3.Fry for another minute. Add the turmeric powder and turn off the fire.
+            \n4.Add the lemon juice and mix well..
+            \n5.Spread the potato mixture on it.
+            \n6.Add the rice, roasted coriander powder and salt to taste and mix thoroughly.
+            \n7.Serve with a Raita and Poppadums."
+        </item>
+
+        <item>
+            "1.Mix well while adding rava in boiling water.
+            \n2.Cover the lid of pan and cook rava upma for 5 minutes until all the water evaporates.
+            \n3.Once the water is gone, the rava upma is ready to serve.
+            \n4.Serve South Indian Rava Upma recipe for breakfast along with a cup of tea or glass of juice."
+        </item>
+
+        <item>
+            "1.mix all the dry ingredients, flour, baking powder, baking soda, salt, and sugar, and sieve the flour to make sure even mixing
+            \n2.Add oil and yogurt to the flour and mix it well, add milk as needed to make soft dough
+            \n3.Cover the dough and let it sit for about 2 hours
+            \n4. roll them into patties,rolling pin or rolling surface dust little more dry flour
+            \n5.Skillet should be moderately hot. Wipe the skillet with few drops of oil.
+            \n6.Sprinkle few nigella seeds and little cilantro over the kulcha while kulcha is still wet, and press it with the spatula
+            \n7.When the kulcha start to change color and start bubbling flip it over. There will be some golden brown spots
+            \n8.Kulcha should have golden brown spots from both sides.Kulcha should not be cooked on high heat otherwise it will not cook through.
+            \n9.Kulcha is ready, butter the kulcha before serving."
+        </item>
+
+        <item>
+            "\n1.Wash the rice twice in fresh water.
+            \n2.Leave to soak for 5 minutes, then drain.
+            \n3.Warm the ghee in a saucepan, add rice and fry, stirring frequently, for 5 minutes.
+            \n4.Add the water and salt, stir and cook till 3/4 of the water has dried.
+            \n5.Place saucepan in a moderate oven on a low heat and cook till water has gone and rice is tender."
+        </item>
+    </string-array>
+</resources>
